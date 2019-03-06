@@ -4,7 +4,7 @@
   "description": "Teachable frontend takehome with Parcel.",
   "main": "server.js",
   "scripts": {
-    "build": "./node_modules/.bin/parcel build ./index.html",
+    "build": "parcel build ./index.html",
     "dev": "concurrently './node_modules/.bin/parcel ./index.html' 'node ./server'",
     "start": "NODE_ENV=production node ./server",
     "test": "echo 'Your test command goes here'"
@@ -22,6 +22,12 @@
   "dependencies": {
     "concurrently": "^4.0.1",
     "express": "^4.16.3",
-    "parcel": "^1.9.7"
-  }
+    "parcel": "^1.9.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
+    "trace_events": "0.0.1"
+  },
+  "devDependencies": {}
 }

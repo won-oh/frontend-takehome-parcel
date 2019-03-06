@@ -5,9 +5,84 @@ body {
   padding: 50px;
 }
 
-.big-lorem-ipsum {
-  font-size: 50px;
+.data-item {
+  width: auto;
+}
+
+.data-information {
+  display: flex;
+  align-items: center;
+}
+
+.data-name {
+  flex-grow: 1;
+}
+
+.data-version {
+  margin-left: 10px;
+  font-style: italic;
   font-weight: 300;
-  margin: 0 auto;
-  max-width: 15em;
+  font-size: 18px;
+  color: #a6aab2;
+}
+
+.data-download {
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.data-download-text {
+  justify-content: flex-end;
+}
+
+.data-info {
+  flex: 3;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border: solid 1px #191919;
+  border-radius: 4px;
+  font-size: 18px;
+
+}
+
+input[type="search"]{
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+input[type="submit"]{
+  width: 100px;
+  padding: 10px;
+  margin: 8px 00 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.data-button {
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+button:first-child {
+  margin-right: 15px;
+}
+
+.save {
+  display: absolute;
+}
+
+.link {
+  height: 50px;
+  font-size: 18px;
+  font-style: italic;
 }
